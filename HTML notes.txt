@@ -5,7 +5,8 @@ Prettier - makes the code alignment & auto save
 Image preview - shows the image preview on the vs code
 
 Color highlight -- Helps in CSS
-
+Ato Rename - if you change the starting tag, it will automatically change the closing tag name
+Live server -- helps in the locale host kind of thing--- disabled in the ust m/c (check in the personal m/c)
 
 
 
