@@ -1,0 +1,17 @@
+Extension Used 
+
+Prettier - makes the code alignment & auto save
+
+Image preview - shows the image preview on the vs code
+
+Color highlight -- Helps in CSS
+
+
+
+
+
+Major HTML tags are closed by / 
+	Ex: </p>, </title>, </body>
+
+
+	
