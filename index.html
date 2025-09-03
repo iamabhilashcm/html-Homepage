@@ -4,6 +4,7 @@
 <html>
   <head>
     <title>the basic language of the web HTML</title>
+   <link href="style.css" rel="stylesheet"/>
   </head>
 
   <body>
@@ -15,29 +16,28 @@
     <h5>the basic language of the web HTML</h5>
     <h6>the basic language of the web HTML</h6>
     <-->
-    <header>
-      <h1>📘 The Code Magazine</h1>
+    <article>
+      <header>
+        <h1>📘 The Code Magazine</h1>
 
-      <nav>
+        <nav>
         <a href="blog.html">BLOG</a>
         <a href="challanges.html">Challanges</a>
         <a href="#">FlexBox</a>
         <a href="#">CSS Grid</a>
-      </nav>
-    </header>
-
-    <article>
-
-      <h2>The Basic Language of the Web: HTML</h2>
-      <img
+        </nav>
+  
+       <h2>The Basic Language of the Web: HTML</h2>
+        <img
         src="img/laura-jones.jpg"
         alt="laura jones image"
         height="50"
         width="50"
-      />
-      <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
-      <img src="img/post-img.jpg" alt="Html code on the screen" />
-
+        />
+     
+        <p id="author">Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027</p>
+        <img src="img/post-img.jpg" alt="Html code on the screen" />
+      </header>
       <p>
         All modern websites and web applications are built using three
         <em>fundamental</em>
@@ -102,14 +102,14 @@
         Related post
       </h4>
       
-      <ul>
+      <ul class="related-list">
         <li>
           <img src="img/related-1.jpg" 
           alt="person programming" 
           width="75" h
           eight="75"/>
           <a href="#" target="_blank"> How To Learn Web Devlopment</a>
-          <p>By Jonas</p>
+          <p class="related-author">By Jonas</p>
          
          </li>
 
@@ -120,7 +120,7 @@
           width="75" 
           height=" 75"/>
           <a href="#">The Unknown Power Of CSS</a>
-          <P> By JIM</P>
+          <p class="related-author"> By JIM</p>
 
         </li>
 
@@ -130,14 +130,14 @@
           width="75" 
           height="75"/>
           <a href="#">Why Java Script is Awesome</a>
-          <p> By Matilda</p>
+          <p class="related-author"> By Matilda</p>
         </li>
       
       </ul>
     </aside>
 
     <footer> 
-      Copyright &copy; by the code Magazine
+     <p id="copyright">Copyright &copy;2027 by the code Magazine</p> 
     </footer>
   </body>
 </html>
