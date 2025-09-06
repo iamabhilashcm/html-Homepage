@@ -3,24 +3,4 @@ h2,
 h3,
 h4 {
   text-decoration: underline;
-  /* used chatgpt here
-  display: block;
-  margin-block-start: 5px;
-  margin-block-end: 5px
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  unicode-bidi: isolate;  
-  border-bottom: 3px solid black;
-  padding-bottom: 3px; /*adds space between text and underline */
-  /* display: inline-block;  */ */
 }
-/* 
-used chatgpt here
-p {
-  display: block;
-  margin-block-start: 5px;
-  margin-block-end: 5px
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  unicode-bidi: isolate;
-} */
