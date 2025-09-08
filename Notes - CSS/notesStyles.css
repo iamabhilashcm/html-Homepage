@@ -4,3 +4,10 @@ h3,
 h4 {
   text-decoration: underline;
 }
+
+.conflict-class {
+  color: #1f2cbdee;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: underline;
+}
