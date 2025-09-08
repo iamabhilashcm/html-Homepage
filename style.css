@@ -1,6 +1,52 @@
+/* (*) is the global elements selector, it selects all elements on the page */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font-family: sans-serif;
   color: #444444;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.main-header {
+  background-color: #c5c6c7;
+  padding: 20px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+nav {
+  font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+aside {
+  background-color: #fafafa;
+  border-bottom: 5px solid #1098ad;
+  border-top: 5px solid #1098ad;
+  /* padding-top: 50px; we chan use shorthand like the below one
+  padding-bottom: 50px; */
+
+  /* shorthand for the padding property */
+  padding: 50px, 0;
+  width: 500px;
 }
 
 h1,
@@ -18,26 +64,40 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 20px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-top: 10px;
 }
 
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 18px;
-  line-height: 1.5;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
 }
 
 /* footer p {
@@ -63,15 +123,6 @@ li {
 
 .related-list {
   list-style: none;
-}
-
-.main-header {
-  background-color: #c5c6c7;
-}
-aside {
-  background-color: #fafafa;
-  border-bottom: 5px solid #1098ad;
-  border-top: 5px solid #1098ad;
 }
 
 li:first-child {
