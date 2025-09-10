@@ -7,6 +7,7 @@
 body {
   font-family: sans-serif;
   color: #444444;
+  position: relative;
 }
 
 .container {
@@ -144,14 +145,32 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: #1098ad;
+  color: #3f4eb2;
 }
 a:hover {
-  color: #1098ad;
+  color: #1025ad;
   font-weight: bold;
-  text-decoration: underline #1098ad;
+  text-decoration: underline #1025ad;
 }
 a:active {
   background-color: turquoise;
   font-style: italic;
+}
+
+nav a:link {
+  margin-right: 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+button {
+  padding: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+  /* top: 50px;
+  right: 50px; */
+
+  bottom: 50px;
+  right: 50px;
 }
