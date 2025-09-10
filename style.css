@@ -174,3 +174,36 @@ button {
   bottom: 50px;
   right: 50px;
 }
+
+/* Pseudo elements */
+h1::first-letter {
+  font-style: normal;
+  margin: 5px;
+}
+
+/* Pseudo elements & adjecent sibling selctor -- "+" is the adjecent sibling selctor
+example: h3 + p::first-letter {
+  color: red;
+}
+h3 + p::first-line {
+  color: red;
+} */
+
+/* after element */
+h2 {
+  position: relative;
+  background-color: orange;
+}
+
+h2::after {
+  content: " TOP";
+  background-color: #ffe70e;
+  color: #444444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
