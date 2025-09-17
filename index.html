@@ -7,9 +7,10 @@
   <title>the basic language of the web HTML</title>
   <link href="style.css" rel="stylesheet" />
 </head>
+<div class="container">
 
-<body>
-  <!--
+  <body>
+    <!--
     <h1>the basic language of the web HTML</h1>
     <h2>the basic language of the web HTML</h2>
     <h3>the basic language of the web HTML</h3>
@@ -17,8 +18,8 @@
     <h5>the basic language of the web HTML</h5>
     <h6>the basic language of the web HTML</h6>
     <-->
-  <div class="container">
-    <header class="main-header">
+    <header class="main-header clearfix">
+      <!-- here 2 class is added -->
       <h1>📘 The Code Magazine</h1>
 
       <nav>
@@ -34,9 +35,11 @@
         <h2>The Basic Language of the Web: HTML</h2>
         <img src="img/laura-jones.jpg" alt="laura jones image" height="50" width="50" class="laura-jones-post" />
 
-        <p id="author">Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027</p>
+        <p id="author" class="author">Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027</p>
         <img src="img/post-img.jpg" alt="Html code on the screen" height="200" width="500" class="post-img" />
       </header>
+
+
       <p>
         All modern websites and web applications are built using three
         <em>fundamental</em>
@@ -123,8 +126,10 @@
     <footer>
       <p id="copyright">Copyright &copy;2027 by the code <strong> Magazine </strong></p>
     </footer>
-  </div>
-  <button>❤️Like</button>
+  </body>
+</div>
+<button>❤️Like</button>
+</div>
 </body>
 
 </html>

@@ -2,23 +2,25 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
   font-family: sans-serif;
   color: #444444;
   position: relative;
+  margin: auto;
 }
 
 .container {
-  width: 80%;
+  width: 1200px;
   margin: 0 auto;
 }
 .main-header {
   background-color: #c5c6c7;
   padding: 20px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -46,8 +48,7 @@ aside {
   padding-bottom: 50px; */
 
   /* shorthand for the padding property */
-  padding: 50px, 0;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 h1,
@@ -79,6 +80,7 @@ h4 {
   text-transform: uppercase;
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 p {
@@ -124,6 +126,7 @@ li:last-child {
 
 .related-list {
   list-style: none;
+  margin-left: 0px;
 }
 
 li:first-child {
@@ -145,7 +148,7 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: #3f4eb2;
+  color: #1098ad;
 }
 a:hover {
   color: #1025ad;
@@ -192,7 +195,7 @@ h3 + p::first-line {
 /* after element */
 h2 {
   position: relative;
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 h2::after {
@@ -206,4 +209,39 @@ h2::after {
   position: absolute;
   top: -10px;
   right: -25px;
+}
+
+/* Float concepts */
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  /* background-color: green; */
+  width: 825px;
+  float: left;
+}
+
+aside {
+  /* background-color: red; */
+  width: 300px;
+  float: right;
+}
+footer {
+  /* background-color: yellow; */
+  clear: both;
 }
