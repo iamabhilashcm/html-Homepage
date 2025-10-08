@@ -245,6 +245,12 @@ footer {
 
 /* Flexbox concepts */
 
+/* DEFAULTS
+flex-grow: 0;
+flex-shrink: 1;
+flex-basis: auto;
+*/
+
 .main-header {
   display: flex;
   align-items: center;
@@ -276,4 +282,25 @@ footer {
   font-size: 14px;
   font-style: italic;
   font-weight: normal;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+
+article {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+aside {
+  flex: 0 0 300px;
+  /* Flex DEFAULT Values
+flex-grow: 0;
+flex-shrink: 1;
+flex-basis: auto;
+*/
 }

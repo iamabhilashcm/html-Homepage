@@ -29,7 +29,6 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #777777;
-  margin-bottom: 20px;
 }
 .more-info:link,
 .moreiinfo:visited {
@@ -116,9 +115,11 @@ body {
 .product-image-title {
   float: left;
 }
-
+.product-pricing {
+  display: flex;
+  justify-content: space-between;
+}
 .product-info {
-  float: left;
   width: 225px;
   margin-left: 40px;
   margin-top: 20px;
@@ -129,3 +130,27 @@ body {
   margin-left: 40px;
   margin-top: 20px;
 }
+
+/* .product-title {
+  align-items: top;
+}
+
+/* Trial code i have written */
+/* 
+.product-card {
+  display: flex; /* enable flexbox */
+/* flex-direction: row; stack children vertically */
+/* justify-content: space-between; */
+/* align-items: stretch; make children stretch to full width */
+/* width: auto; example card width - setting to auto to acumulate available width */
+/* height: auto; example card height - setting to auto to acumulate available width */
+/* } */
+
+/* .product-price-description {
+  padding: 10px;
+  margin: 5px;
+  background: rgb(204, 230, 173);
+}
+.product-description {
+  background-color: #f0bf1e;
+} */
